@@ -6,32 +6,32 @@ import { ArrowRight, Leaf, Users, Target, TrendingUp, Heart, Globe } from "lucid
 
 export default function Home() {
   const stats = [
-    { number: "50,000+", label: "Trees Planted", icon: Leaf },
-    { number: "25+", label: "Communities Served", icon: Users },
-    { number: "100+", label: "Projects Completed", icon: Target },
-    { number: "85%", label: "Carbon Reduction", icon: TrendingUp },
+    { number: "25,000+", label: "Beneficiaries", icon: Leaf },
+    { number: "15+", label: "Jobs created", icon: Users },
+    { number: "85%", label: "Increase in Educational Uptake", icon: Target },
+    // { number: "85%", label: "Carbon Reduction", icon: TrendingUp },
   ]
 
   const initiatives = [
     {
       title: "Climate Action",
       description: "Leading the fight against climate change through innovative solutions and community engagement.",
-      image: "/climate-action-renewable-energy-solar-panels.jpg",
+      image: "/013.jpg",
     },
     {
       title: "Sustainable Agriculture",
       description: "Empowering farmers with sustainable practices that protect the environment and increase yields.",
-      image: "/sustainable-farming-organic-agriculture.jpg",
+      image: "/about1.jpg",
     },
     {
       title: "Clean Water Access",
       description: "Providing clean water solutions to communities in need through innovative filtration systems.",
-      image: "/clean-water-well-community.jpg",
+      image: "/about2.jpeg",
     },
     {
       title: "Environmental Education",
       description: "Educating the next generation about environmental stewardship and sustainable living.",
-      image: "/children-learning-environment-education.jpg",
+      image: "/about3.jpg",
     },
   ]
 
@@ -40,7 +40,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/lush-green-forest-environmental-conservation.jpg" alt="Hero background" className="w-full h-full object-cover" />
+          <img src="heroLogo1.jpeg" alt="Hero background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 to-charcoal/40" />
         </div>
 
@@ -108,7 +108,7 @@ export default function Home() {
       {/* Stats Section */}
       <section className="section-padding bg-cream">
         <div className="container-custom">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
             {stats.map((stat, index) => {
               const Icon = stat.icon
               return (

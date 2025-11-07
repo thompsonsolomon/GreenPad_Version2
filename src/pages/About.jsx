@@ -42,12 +42,7 @@ export default function About() {
       name: "Amara Okafor",
       role: "Community Outreach Lead",
       image: "/professional-woman-community-outreach.jpg",
-    },
-    {
-      name: "James Martinez",
-      role: "Sustainability Coordinator",
-      image: "/professional-man-sustainability-coordinator.jpg",
-    },
+    }
   ]
 
   return (
@@ -55,7 +50,7 @@ export default function About() {
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/team-working-together-environmental-project.jpg" alt="About hero" className="w-full h-full object-cover" />
+          <img src="/013.jpg" alt="About hero" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal/90 to-charcoal/60" />
         </div>
 
@@ -74,7 +69,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-200"
           >
-            Building bridges between environmental sustainability and community empowerment since  2017
+            Building bridges between Feminine Hygiene, Environmental Sustainability and Community Empowerment since 2017
           </motion.p>
         </div>
       </section>
@@ -113,7 +108,7 @@ export default function About() {
               transition={{ duration: 0.8 }}
               className="relative h-[500px] rounded-lg overflow-hidden shadow-xl"
             >
-              <img src="/environmental-ngo-team-planting-trees-community.jpg" alt="Our story" className="w-full h-full object-cover" />
+              <img src="/about.jpeg" alt="Our story" className="w-full h-full object-cover" />
             </motion.div>
           </div>
         </div>
@@ -214,7 +209,7 @@ export default function About() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <motion.div
                 key={index}
