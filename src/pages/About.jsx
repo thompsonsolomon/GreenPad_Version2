@@ -29,17 +29,17 @@ export default function About() {
 
   const team = [
     {
-      name: "Dr. Sarah Johnson",
+      name: "Damilola Samuel Mutiu",
       role: "Executive Director",
       image: "/professional-woman-executive-director.png",
     },
     {
-      name: "Michael Chen",
+      name: "Popoola Kemisola",
       role: "Director of Programs",
       image: "/professional-man-programs-director.jpg",
     },
     {
-      name: "Amara Okafor",
+      name: "Adeola Adeosun",
       role: "Community Outreach Lead",
       image: "/professional-woman-community-outreach.jpg",
     }

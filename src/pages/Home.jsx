@@ -24,8 +24,8 @@ export default function Home() {
       image: "/about1.jpg",
     },
     {
-      title: "Clean Water Access",
-      description: "Providing clean water solutions to communities in need through innovative filtration systems.",
+      title: "Access to Feminine hygiene information",
+      description: "We create awareness on proper feminine hygiene, reproductive heath and family planing ",
       image: "/about2.jpeg",
     },
     {
